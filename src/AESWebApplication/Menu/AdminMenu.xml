@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItems>
+  <Menu ImageUrl="~/Images/check.gif" Name="Academic Session Master" Url="~/AcademicSessionMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Activity Detail" Url="~/ActivityDetailUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Activity Master" Url="~/ActivityMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Attendance Master" Url="~/AttendanceMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Bank Master" Url="~/BankMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Branch Master" Url="~/BranchMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="CashRegister Master" Url="~/CashRegisterMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="City Master" Url="~/CityMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Class Master" Url="~/ClassMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Country Master" Url="~/CountryMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Company Master" Url="~/CompanyMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="CourseMasterUI.aspx" Url="~/Course Master"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Department Master" Url="~/DepartmentMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Designation Master" Url="~/DesignationMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Division Master" Url="~/DivisionMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Fee Master" Url="~/FeeMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Grade Master" Url="~/GradeMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Group Master" Url="~/GroupMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Item Master" Url="~/ItemMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Joining Master" Url="~/JoiningMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Ledger Master" Url="~/LedgerMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Medical Master" Url="~/MedicalMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Metadata Master" Url="~/MetadataMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Qualification Master" Url="~/QualificationMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="RackGroup Master" Url="~/RackGroupMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Rack Master" Url="~/RackMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Registration Master" Url="~/RegistrationMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Room Master" Url="~/RoomMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="School Master" Url="~/SchoolMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Section Master" Url="~/SectionMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Skill Master" Url="~/SkillMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="State Master" Url="~/StateMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Stream Master" Url="~/StreamMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Subject Master" Url="~/SubjectMasterUI.aspx"/>
+</MenuItems>

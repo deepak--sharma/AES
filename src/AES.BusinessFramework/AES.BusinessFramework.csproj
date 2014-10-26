@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD5223C0-B1DD-447B-A993-45EAF1E3C88D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AES.BusinessFramework</RootNamespace>
+    <AssemblyName>AES.BusinessFramework</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcademicSessionMasterBL.cs" />
+    <Compile Include="ActivityDetailBL.cs" />
+    <Compile Include="ActivityMasterBL.cs" />
+    <Compile Include="ActivityOwnershipBL.cs" />
+    <Compile Include="ActivityScheduleDetailBL.cs" />
+    <Compile Include="AddressDetailBL.cs" />
+    <Compile Include="AttendanceMasterBL.cs" />
+    <Compile Include="BankMasterBL.cs" />
+    <Compile Include="BranchMasterBL.cs" />
+    <Compile Include="BusinessController.cs" />
+    <Compile Include="BusinessUtility.cs" />
+    <Compile Include="CandidateDetailBL.cs" />
+    <Compile Include="CashRegisterMasterBL.cs" />
+    <Compile Include="CityMasterBL.cs" />
+    <Compile Include="ClassMasterBL.cs" />
+    <Compile Include="ClassSubjectMappingBL.cs" />
+    <Compile Include="CompanyMasterBL.cs" />
+    <Compile Include="CountryMasterBL.cs" />
+    <Compile Include="CourseMasterBL.cs" />
+    <Compile Include="CustomEnums.cs" />
+    <Compile Include="DepartmentMasterBL.cs" />
+    <Compile Include="DesignationMasterBL.cs" />
+    <Compile Include="DivisionMasterBL.cs" />
+    <Compile Include="DocumentDetailBL.cs" />
+    <Compile Include="EmergencyDetailBL.cs" />
+    <Compile Include="EmployeeAdministrativeDetailBL.cs" />
+    <Compile Include="EmployeeDetailBL.cs" />
+    <Compile Include="EmployeeEducationalDetailBL.cs" />
+    <Compile Include="EmployeeFamilyDetailBL.cs" />
+    <Compile Include="EmployeeFinancialDetailBL.cs" />
+    <Compile Include="EmployeeJoiningDetailBL.cs" />
+    <Compile Include="EmployeeMedicalDetailBL.cs" />
+    <Compile Include="EmployeePreviousOrganisationDetailBL.cs" />
+    <Compile Include="FeeCollectionDetailBL.cs" />
+    <Compile Include="FeeDiscountSetupBL.cs" />
+    <Compile Include="FeeMasterBL.cs" />
+    <Compile Include="FeeRegisterBL.cs" />
+    <Compile Include="FeeScheduleBL.cs" />
+    <Compile Include="FeeScheduleDetailBL.cs" />
+    <Compile Include="FeeSetupBL.cs" />
+    <Compile Include="FeeStructureBL.cs" />
+    <Compile Include="FeeStructureDetailBL.cs" />
+    <Compile Include="GradeMasterBL.cs" />
+    <Compile Include="GroupMasterBL.cs" />
+    <Compile Include="GuardianDetailBL.cs" />
+    <Compile Include="ImmigrationDetailBL.cs" />
+    <Compile Include="ItemMasterBL.cs" />
+    <Compile Include="ItemTypeBL.cs" />
+    <Compile Include="JoiningMasterBL.cs" />
+    <Compile Include="KnownLanguageBL.cs" />
+    <Compile Include="LateFeeSetupBL.cs" />
+    <Compile Include="LateFeeSetupDetailBL.cs" />
+    <Compile Include="LedgerMasterBL.cs" />
+    <Compile Include="LicenceDetailBL.cs" />
+    <Compile Include="MedicalMasterBL.cs" />
+    <Compile Include="MetadataMasterBL.cs" />
+    <Compile Include="MetadataTypeBL.cs" />
+    <Compile Include="PreviousSchoolEducationDetailBL.cs" />
+    <Compile Include="PreviousSchoolEducationMarksDetailBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualificationMasterBL.cs" />
+    <Compile Include="RackGroupMasterBL.cs" />
+    <Compile Include="RackMasterBL.cs" />
+    <Compile Include="RegistrationEligibilityBL.cs" />
+    <Compile Include="RegistrationMasterBL.cs" />
+    <Compile Include="ReportingDetailBL.cs" />
+    <Compile Include="ReservationDetailBL.cs" />
+    <Compile Include="ResourceManagementBL.cs" />
+    <Compile Include="RoleManagementBL.cs" />
+    <Compile Include="RoleResourceMappingBL.cs" />
+    <Compile Include="RoomMasterBL.cs" />
+    <Compile Include="SchoolMasterBL.cs" />
+    <Compile Include="SectionMasterBL.cs" />
+    <Compile Include="SiblingDetailBL.cs" />
+    <Compile Include="SkillDetailBL.cs" />
+    <Compile Include="SkillMasterBL.cs" />
+    <Compile Include="StateMasterBL.cs" />
+    <Compile Include="StreamMasterBL.cs" />
+    <Compile Include="StudentAttendanceBL.cs" />
+    <Compile Include="StudentDetailBL.cs" />
+    <Compile Include="StudentRegistrationDetailBL.cs" />
+    <Compile Include="SubjectMasterBL.cs" />
+    <Compile Include="UserManagementBL.cs" />
+    <Compile Include="UserRoleMappingBL.cs" />
+    <Compile Include="VoucherTypeBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AES.DataFramework\AES.DataFramework.csproj">
+      <Project>{43C1403C-437A-4E6F-99BB-A4CC262FFE34}</Project>
+      <Name>AES.DataFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AES.ObjectFramework\AES.ObjectFramework.csproj">
+      <Project>{FFA44C9A-38DD-49E3-91FF-3421661C3E52}</Project>
+      <Name>AES.ObjectFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AES.SolutionFramework\AES.SolutionFramework.csproj">
+      <Project>{6CAE1802-F188-4C48-8258-278BAAADF612}</Project>
+      <Name>AES.SolutionFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

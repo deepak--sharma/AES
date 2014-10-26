@@ -1,0 +1,839 @@
+*
+{
+    font-family: Verdana;
+    font-size: 11px;
+}
+.title
+{
+    background-color: Blue;
+    color: White;
+    font-size: x-large;
+}
+
+.Normal_cell
+{
+    background-color: Silver;
+}
+.Alternate_cell
+{
+    background-color: White;
+}
+.Header_cell
+{
+    background-color: Navy;
+    color: White;
+    font-weight: bold;
+}
+
+.Normal_cell_hover
+{
+    background-color: ActiveBorder;
+    font-weight: bold;
+    color: White;
+}
+.Alternate_cell_hover
+{
+    background-color: ActiveBorder;
+    font-weight: bold;
+    color: White;
+}
+
+.Normal_cell a, .Alternate_cell a, .Header_cell a, .Normal_cell_hover a, .Alternate_cell_hover a
+{
+    width: 60px;
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: Silver;
+    text-decoration: none;
+    color: Black;
+}
+
+
+
+body
+{
+    margin: 0px;
+    scrollbar-face-color: #EFEFEF;
+    scrollbar-shadow-color: #3D5054;
+    scrollbar-highlight-color: #C3D6DA;
+    scrollbar-arrow-color: #ffffff;
+    scrollbar-darkshadow-color: #85989C;
+    scrollbar-track-color: #EFEFEF;
+    scrollbar-arrow-color: #FFD6DA;
+}
+
+A:link
+{
+    color: Black;
+    text-decoration: underline;
+}
+
+A:visited
+{
+    color: Blue;
+    text-decoration: underline;
+}
+A:hover
+{
+    color: Blue;
+    text-decoration: underline;
+}
+A:active
+{
+    text-decoration: underline;
+}
+
+/*---------------------Class------------------------------------------------ */
+.legendstyle
+{
+    border-right: #FFFFFF 1px solid;
+    border-top: #FFFFFF 1px solid;
+    border-left: #FFFFFF 1px solid;
+    border-bottom: #FFFFFF 1px solid;
+    background-color: #E0E0E0;
+    height: 15px;
+    width: 15px;
+}
+
+.draftstyle
+{
+    border-right: #FFFFFF 2px solid;
+    border-top: #FFFFFF 2px solid;
+    border-left: #FFFFFF 2px solid;
+    border-bottom: #FFFFFF 2px solid;
+    background-color: #808080;
+    height: 15px;
+    width: 15px;
+}
+.panelstyle
+{
+    width: 100%;
+    height: 100%;
+    font-family: Verdana;
+    background-color: white;
+}
+.tablestyle
+{
+    width: 100%;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 100%;
+}
+.mainTablestyle
+{
+    width: 1000px;
+    font-family: Verdana;
+    font-size: 10pt;
+    height: 100%;
+}
+.tdleft
+{
+    width: 150;
+    height: 100%;
+}
+.tdcenter
+{
+    text-align: center;
+}
+.trmain
+{
+    height: 500;
+}
+
+.sample
+{
+    right: auto;
+}
+
+.labelstyle
+{
+    font-size: 8pt;
+    text-transform: capitalize;
+    color: #000000;
+    line-height: 20px;
+    font-family: Verdana;
+    font-variant: normal;
+}
+.labelstyle1
+{
+    font-size: 8pt;
+    color: #003B60;
+    line-height: 20px;
+    font-family: Verdana;
+    font-variant: normal;
+}
+.txtlable
+{
+    font-size: 8pt;
+    background-color: Silver;
+    font-weight: bold;
+    color: red;
+}
+.labelstyleSimple
+{
+    font-size: 9pt;
+    color: #003B60;
+    line-height: 20px;
+    font-family: Verdana;
+    font-variant: normal;
+}
+
+.colonstyle
+{
+    font-size: 8pt;
+    text-transform: capitalize;
+    color: #003B60;
+    font-family: Verdana;
+    font-variant: normal;
+}
+
+.footerlabelstyle
+{
+    font-size: 8pt;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-variant: normal;
+}
+.hnewlabel
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #483d8d;
+    font-family: Arial;
+}
+.hlabel
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #cc9933;
+    font-family: Arial;
+}
+
+.buttonstyle
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: #003B60;
+    font-family: Verdana;
+}
+
+.btnstyle
+{
+    color: White;
+    background-color: #59403a;
+    width: 90px;
+    height: 20px;
+    border-bottom: #333333 1px solid;
+    border-left: #333333 1px solid;
+    border-right: #333333 1px solid;
+    border-top: #333333 1px solid;
+}
+
+.WObtnstyle
+{
+    color: White;
+    background-color: #267DB2;
+    width: 20px;
+    height: 18px;
+    font-size: 10px;
+    border-bottom: #333333 1px solid;
+    border-left: #333333 1px solid;
+    border-right: #333333 1px solid;
+    border-top: #333333 1px solid;
+}
+
+.ArrowBtnStyle
+{
+    color: White;
+    background-color: #267DB2;
+    width: 25px;
+}
+
+.SmallButtonStyle
+{
+    background-color: #267DB2;
+    color: White;
+    width: 15px;
+    height: 15px;
+    font-size: 8px;
+    border-bottom: #333333 1px solid;
+    border-left: #333333 1px solid;
+    border-right: #333333 1px solid;
+    border-top: #333333 1px solid;
+}
+
+.dropdownstyle
+{
+    font-size: 8pt;
+    color: #003B60;
+    font-family: Verdana;
+    background-color: White;
+    width: 200px;
+    text-transform: uppercase;
+}
+.largedropdownstyle
+{
+    font-size: 8pt;
+    color: #003B60;
+    font-family: Verdana;
+    background-color: White;
+    width: 210px;
+}
+.fileuploadstyle
+{
+    font-size: 8pt;
+    color: #003B60;
+    font-family: Verdana;
+    background-color: White;
+    width: 250px;
+}
+.nodropdownsytle
+{
+    font-size: 8pt;
+    color: #003B60;
+    font-family: Verdana;
+    background-color: White;
+}
+.checkboxstyle
+{
+    font-size: 8pt;
+    color: #003B60;
+    font-family: Verdana;
+}
+
+.radiostyle
+{
+    font-size: 8pt;
+    color: #003B60;
+    font-family: Verdana;
+}
+
+.subtablestyle
+{
+    width: 100%;
+    color: #003b60;
+    font-family: Verdana;
+    height: 100%;
+}
+.tableheaderstyle
+{
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: bold;
+    color: White;
+}
+.errorstyle
+{
+    font-size: 8pt;
+    color: Red;
+    font-family: Tahoma;
+}
+.msgstyle
+{
+    font-weight: bold;
+    font-size: 8pt;
+    color: red;
+    font-family: Arial;
+}
+.textboxstyle
+{
+    border-right: 1px solid;
+    border-top: 1px solid;
+    font-size: 8pt;
+    border-left: 1px solid;
+    color: #003b60;
+    border-bottom: 1px solid;
+    font-family: Verdana;
+}
+.rhight
+{
+    height: 0;
+}
+
+.smalllistboxstyle
+{
+    border-right: 1px solid;
+    border-top: 1px solid;
+    font-size: 8pt;
+    border-left: 1px solid;
+    width: 150px;
+    height: 40px;
+    color: #003b60;
+    border-bottom: 1px solid;
+    font-family: Verdana;
+}
+
+.listboxstyle
+{
+    border-right: 1px solid;
+    border-top: 1px solid;
+    font-size: 8pt;
+    border-left: 1px solid;
+    width: 200px;
+    color: #003b60;
+    border-bottom: 1px solid;
+    font-family: Verdana;
+}
+
+.rptListboxstyle
+{
+    border-right: #003b60 0px solid;
+    border-top: #003b60 0px solid;
+    font-size: 8pt;
+    border-left: #003b60 0px solid;
+    width: 200px;
+    height: 60;
+    color: #003b60;
+    border-bottom: #003b60 0px solid;
+    font-family: Verdana;
+}
+.hyperlinkstyle
+{
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #59403a;
+    font-weight: bold;
+}
+
+/*----User Control-----------------------------------------------------*/
+
+.uclabelstyle
+{
+    font-size: 8pt;
+    color: #8b0000;
+}
+.subpanelstyle
+{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    font-family: Verdana;
+    font-size: 10pt;
+}
+.headerpanelstyle
+{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+}
+.ucpanel
+{
+    width: 100%;
+    background-color: white;
+}
+.ucleftpanel
+{
+    width: 100%;
+    height: 100%;
+}
+.hlink
+{
+    font-size: 8pt;
+    text-transform: capitalize;
+    font-family: Verdana;
+    font-variant: normal;
+    color: #003B60;
+    font-weight: bold;
+}
+.hlink1
+{
+    font-size: 8pt;
+    text-transform: capitalize;
+    font-family: Verdana;
+    font-variant: normal;
+    color: #003B60;
+    font-weight: bold;
+}
+.GroupHeading
+{
+    background-color: #59403a;
+}
+.cellstyle
+{
+    border-right: #003b60 1px solid;
+    border-top: #003b60 1px solid;
+    border-left: #003b60 1px solid;
+    border-bottom: #003b60 1px solid;
+}
+.textdescstyle
+{
+    border-right: 1px solid;
+    border-top: 1px solid;
+    font-size: 8pt;
+    border-left: 1px solid;
+    color: #003b60;
+    border-bottom: 1px solid;
+    font-family: Verdana;
+    width: 250px;
+    height: 50px;
+}
+.textmediumstyle
+{
+    border-right: 1px solid;
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    color: #003b60;
+    font-size: 8pt;
+    font-family: Verdana;
+    width: 200px;
+}
+.leftcontent
+{
+    vertical-align: top;
+    width: 150px;
+}
+.middlecontent
+{
+    width: 20px;
+    vertical-align: top;
+}
+.borderstyle
+{
+    width: 100%;
+    color: #003b60;
+    font-family: Verdana;
+    border-right: #003b60 1px solid;
+    border-top: #003b60 1px solid;
+    border-left: #003b60 1px solid;
+    border-bottom: #003b60 1px solid;
+}
+.subborderstyle
+{
+    color: #003b60;
+    font-family: Verdana;
+    border-right: #003b60 1px solid;
+    border-top: #003b60 1px solid;
+    border-left: #003b60 1px solid;
+    border-bottom: #003b60 1px solid;
+    background-repeat: no-repeat;
+}
+
+.CategoryBorderStyle
+{
+    width: 100%;
+    color: Red;
+    font-family: Verdana;
+    border-left: Red 1px solid;
+    border-bottom: Red 1px solid;
+}
+
+.SubCategoryBorderStyle
+{
+    width: 100%;
+    color: Green;
+    font-family: Verdana;
+    border-left: Green 1px solid;
+    border-bottom: Green 1px solid;
+}
+
+.QuestionBorderStyle
+{
+    width: 100%;
+    color: Gray;
+    font-family: Verdana;
+    border-left: Gray 1px solid;
+    border-bottom: Gray 1px solid;
+}
+
+.bgimage
+{
+    background-repeat: no-repeat;
+}
+
+
+
+/*------------------------------  Grid Style  ------------------------------------------*/
+
+.miDataGridStyle
+{
+    width: 100%;
+    font-size: 7pt;
+    color: #000000;
+    font-family: Verdana;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-top: 1px solid;
+}
+
+.miDgFooterStyle
+{
+    font-weight: bold;
+    font-size: 9pt;
+    border-top: #F6F6F6 5px solid;
+    border-right: #F3F3F3 2px solid;
+    border-left: #F3F3F3 2px solid;
+    color: #000000;
+    border-bottom: #F3F3F3 5px solid;
+    background-color: #F3F3F3;
+    text-align: left;
+}
+.dgalterstyle
+{
+    font-size: 7pt;
+    color: #003b60;
+    background-color: #92BED7;
+    font-family: Verdana;
+}
+.miDgItemStyle
+{
+    font-size: 17pt;
+    color: Red;
+    font-family: Verdana;
+    text-align: left;
+}
+.miDgItemStyle A
+{
+    font-size: 7pt;
+    color: #333333;
+    font-family: Verdana;
+}
+
+.miDgHeaderStyle
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: #000000;
+    font-family: Verdana;
+    background-color: #f3f3f3;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+/*------------------------------------Grid style over ----------------------------------- */
+/*------------------------------------Button Style Start -------------------------------- */
+
+.miButton
+{
+    font-size: 8pt;
+    background-color: #888c4f;
+    color: #ffffff;
+    font-family: Verdana;
+    height: 18px;
+    width: 70px;
+    border-style: none;
+}
+
+.miButton2
+{
+    font-size: 8pt;
+    background-color: #59403b;
+    color: #ffffff;
+    font-family: Verdana;
+    height: 18px;
+    width: 70px;
+    border-style: none;
+    vertical-align: middle;
+}
+/*------------------------------------Button Style Over ----------------------------------*/
+/*------------------------------------Label Style Start ----------------------------------*/
+.miLabel
+{
+    font-size: 10pt;
+    color: #ffffff;
+    font-family: Arial;
+    border-style: none;
+    font-weight: bold;
+}
+
+.miLabelHeader
+{
+    font-size: 13pt;
+    color: Black;
+    font-family: Verdana;
+    font-weight: bold;
+}
+/*------------------------------------Label Style Over -----------------------------------*/
+.asterikstyle
+{
+    font-size: 8pt;
+    color: #ff3300;
+    font-family: Verdana;
+}
+
+
+A
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: #ffffff;
+    font-family: Verdana;
+}
+.rightborder
+{
+    border-right: #D4D0C8 1px solid;
+}
+.calendarbgcolor
+{
+    font-weight: bold;
+    font-size: 9pt;
+    color: #003b60;
+    font-family: Verdana;
+    background-color: white;
+}
+
+/* For Table in Response Module */
+
+.CategoryTextStyle
+{
+    font-family: Verdana;
+    font-size: 8pt;
+    color: White;
+}
+.CategoryCellStyle
+{
+    background-color: Blue;
+}
+
+.SubCategoryTextStyle
+{
+    font-family: Verdana;
+    font-size: 8pt;
+    color: Blue;
+    font-weight: bolder;
+}
+.SubCategoryCellStyle
+{
+    background-color: #EFEFEF;
+}
+
+.QuestionCellStyle
+{
+    background-color: White;
+}
+
+/* for reports */
+.ReportHeader
+{
+    font-family: Verdana;
+    font-size: 18px;
+    color: #454545;
+}
+.ReportTextStyle
+{
+    font-family: Verdana;
+    font-size: 8pt;
+    color: #000000;
+    font-weight: bolder;
+}
+.SurveyCellStyle
+{
+    background-color: #C8C8C8;
+}
+.ZoneCellStyle
+{
+    background-color: #EFEFEF;
+}
+.DepartmentCellStyle
+{
+    background-color: #EFEFEF;
+}
+.SurveyInstanceCellStyle
+{
+    background-color: #C8C8C8;
+}
+.UserCellStyle
+{
+    background-color: #EFEFEF;
+}
+.ResponseCellStyle
+{
+    background-color: #EFEFEF;
+}
+
+
+
+
+
+
+/* ------ scrollbar style ----------- */
+
+
+.clsDiv
+{
+    color: #000000;
+    background-color: #FFFFFF;
+    border: solid 1px black;
+    overflow: scroll;
+    scrollbar-face-color: #EFEFEF;
+    scrollbar-shadow-color: #3D5054;
+    scrollbar-highlight-color: #C3D6DA;
+    scrollbar-3dlight-color: #3D5054;
+    scrollbar-darkshadow-color: #85989C;
+    scrollbar-track-color: #EFEFEF;
+    scrollbar-arrow-color: #FFD6DA;
+}
+TD
+{
+    font: 11px verdana,arial,helvetica,sans-serif;
+    vertical-align: top;
+}
+/*---Home Page Style*/
+.paratitle
+{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0094e7;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.paratext
+{
+    font-size: 12px;
+    color: #003B60;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.bluetext
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #606060;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.tdleft
+{
+    font-size: 12px;
+    color: #808080;
+    border-top-style: none;
+    border-bottom: #cccccc 1px dotted;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: none;
+    border-left-style: none;
+}
+A.bluelink
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #59403a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+A.bluelink:hover
+{
+    font-weight: bold;
+    font-size: 11px;
+    color: #868b4a;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+/* --  Agreement --*/
+.agreementStyle
+{
+    border-right: 1px solid;
+    border-top: 1px solid;
+    font-size: 8pt;
+    border-left: 1px solid;
+    color: #003b60;
+    border-bottom: 1px solid;
+    font-family: Verdana;
+    text-align: justify;
+}

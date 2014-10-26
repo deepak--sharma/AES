@@ -1,0 +1,42 @@
+﻿.listmenu
+{
+	background-color: #6BA8CE;
+	overflow: hidden;
+	position: relative;
+	width: 200px;
+	float: left;
+	height: 100%;
+}
+.listmenu ul
+{
+	margin: 0 0 0px 0;
+	padding: 0 0 0px 0;
+	list-style-type: none;
+	float: left;
+	width: 200px;
+	overflow: auto;
+}
+.listmenu img
+{
+	
+}
+.listmenu li a
+{
+	color: #333;
+	display: block; *border-left:3pxsolid#666;
+*border-right:3pxsolid#666;
+border-bottom:2pxsolid#ffffff;
+height:20px;
+padding:4px04px14px;
+text-decoration:none;
+font-weight:bold;
+background-color:#6BA8CE;
+color:#ffffff;
+-moz-border-radius:2px;
+}
+.listmenu li a:hover
+{
+	background-color: #666666;
+	color: #ffffff;
+	-moz-border-radius: 2px;
+}

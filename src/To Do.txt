@@ -1,0 +1,3 @@
+if (objFeeStructure.DbOperationStatus == CommonConstant.SUCCEED							|| objFeeStructure.DbOperationStatus == CommonConstant.INVALID)				{					InitializeForm();					MultiViewFeeStructure.ActiveViewIndex = 0;				}				UIUtility.DisplayMessage(lblMessage, objFeeStructure.DbOperationStatus);
+
+-- This code needs to be changed for duplicate records....

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{43C1403C-437A-4E6F-99BB-A4CC262FFE34}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AES.DataFramework</RootNamespace>
+    <AssemblyName>AES.DataFramework</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DK_Software\MyCodeGenerator_Ver7\MyCodeGenerator\bin\Debug\MyTemplates\AESLogger\bin\debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Logger, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DK_Software\MyCodeGenerator_Ver7\MyCodeGenerator\bin\Debug\MyTemplates\AESLogger\bin\debug\Logger.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcademicSessionMasterDAO.cs" />
+    <Compile Include="ActivityDetailDAO.cs" />
+    <Compile Include="ActivityMasterDAO.cs" />
+    <Compile Include="ActivityOwnershipDAO.cs" />
+    <Compile Include="ActivityScheduleDetailDAO.cs" />
+    <Compile Include="AddressDetailDAO.cs" />
+    <Compile Include="AttendanceMasterDAO.cs" />
+    <Compile Include="BankMasterDAO.cs" />
+    <Compile Include="BranchMasterDAO.cs" />
+    <Compile Include="CandidateDetailDAO.cs" />
+    <Compile Include="CashRegisterMasterDAO.cs" />
+    <Compile Include="CityMasterDAO.cs" />
+    <Compile Include="ClassMasterDAO.cs" />
+    <Compile Include="ClassSubjectMappingDAO.cs" />
+    <Compile Include="CompanyMasterDAO.cs" />
+    <Compile Include="CountryMasterDAO.cs" />
+    <Compile Include="CourseMasterDAO.cs" />
+    <Compile Include="DataBaseSchema.cs" />
+    <Compile Include="DataUtility.cs" />
+    <Compile Include="DataController.cs" />
+    <Compile Include="DepartmentMasterDAO.cs" />
+    <Compile Include="DesignationMasterDAO.cs" />
+    <Compile Include="DivisionMasterDAO.cs" />
+    <Compile Include="DocumentDetailDAO.cs" />
+    <Compile Include="EmergencyDetailDAO.cs" />
+    <Compile Include="EmployeeAdministrativeDetailDAO.cs" />
+    <Compile Include="EmployeeDetailDAO.cs" />
+    <Compile Include="EmployeeEducationalDetailDAO.cs" />
+    <Compile Include="EmployeeFamilyDetailDAO.cs" />
+    <Compile Include="EmployeeFinancialDetailDAO.cs" />
+    <Compile Include="EmployeeJoiningDetailDAO.cs" />
+    <Compile Include="EmployeeMedicalDetailDAO.cs" />
+    <Compile Include="EmployeePreviousOrganisationDetailDAO.cs" />
+    <Compile Include="FeeCollectionDetailDAO.cs" />
+    <Compile Include="FeeDiscountSetupDAO.cs" />
+    <Compile Include="FeeMasterDAO.cs" />
+    <Compile Include="FeeRegisterDAO.cs" />
+    <Compile Include="FeeScheduleDAO.cs" />
+    <Compile Include="FeeScheduleDetailDAO.cs" />
+    <Compile Include="FeeSetupDAO.cs" />
+    <Compile Include="FeeStructureDAO.cs" />
+    <Compile Include="FeeStructureDetailDAO.cs" />
+    <Compile Include="GradeMasterDAO.cs" />
+    <Compile Include="GroupMasterDAO.cs" />
+    <Compile Include="GuardianDetailDAO.cs" />
+    <Compile Include="ImmigrationDetailDAO.cs" />
+    <Compile Include="ItemMasterDAO.cs" />
+    <Compile Include="ItemTypeDAO.cs" />
+    <Compile Include="JoiningMasterDAO.cs" />
+    <Compile Include="KnownLanguageDAO.cs" />
+    <Compile Include="LateFeeSetupDAO.cs" />
+    <Compile Include="LateFeeSetupDetailDAO.cs" />
+    <Compile Include="LedgerMasterDAO.cs" />
+    <Compile Include="LicenceDetailDAO.cs" />
+    <Compile Include="MedicalMasterDAO.cs" />
+    <Compile Include="MetadataMasterDAO.cs" />
+    <Compile Include="MetadataTypeDAO.cs" />
+    <Compile Include="PreviousSchoolEducationDetailDAO.cs" />
+    <Compile Include="PreviousSchoolEducationMarksDetailDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualificationMasterDAO.cs" />
+    <Compile Include="RackGroupMasterDAO.cs" />
+    <Compile Include="RackMasterDAO.cs" />
+    <Compile Include="RegistrationEligibilityDAO.cs" />
+    <Compile Include="RegistrationMasterDAO.cs" />
+    <Compile Include="ReportingDetailDAO.cs" />
+    <Compile Include="ReservationDetailDAO.cs" />
+    <Compile Include="ResourceManagementDAO.cs" />
+    <Compile Include="RoleManagementDAO.cs" />
+    <Compile Include="RoleResourceMappingDAO.cs" />
+    <Compile Include="RoomMasterDAO.cs" />
+    <Compile Include="SchoolMasterDAO.cs" />
+    <Compile Include="SectionMasterDAO.cs" />
+    <Compile Include="SiblingDetailDAO.cs" />
+    <Compile Include="SkillDetailDAO.cs" />
+    <Compile Include="SkillMasterDAO.cs" />
+    <Compile Include="StateMasterDAO.cs" />
+    <Compile Include="StreamMasterDAO.cs" />
+    <Compile Include="StudentAttendanceDAO.cs" />
+    <Compile Include="StudentDetailDAO.cs" />
+    <Compile Include="StudentRegistrationDetailDAO.cs" />
+    <Compile Include="SubjectMasterDAO.cs" />
+    <Compile Include="UserManagementDAO.cs" />
+    <Compile Include="UserRoleMappingDAO.cs" />
+    <Compile Include="VoucherTypeDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AES.ObjectFramework\AES.ObjectFramework.csproj">
+      <Project>{FFA44C9A-38DD-49E3-91FF-3421661C3E52}</Project>
+      <Name>AES.ObjectFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AES.SolutionFramework\AES.SolutionFramework.csproj">
+      <Project>{6CAE1802-F188-4C48-8258-278BAAADF612}</Project>
+      <Name>AES.SolutionFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

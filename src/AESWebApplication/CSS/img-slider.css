@@ -1,0 +1,6 @@
+/* CSS Document */
+
+#slider {width: 601px; height: 272px; padding:0; border:0; overflow:hidden;}
+#slider img {padding: 0; margin:0; border:0;}
+#slider .clicker a {width: 10px; height: 10px; background:#FFCC00; margin-right: 2px;}
+#slider .clicker a.active {background:#99FF00 0 0 no-repeat;}

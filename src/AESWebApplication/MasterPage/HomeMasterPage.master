@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="HomeMasterPage.master.cs"
+    Inherits="MasterPage_HomeMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Welcome to AES</title>
+    <link href="../CSS/Main.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/DefaultMenu.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+        <Scripts>
+            <asp:ScriptReference Path="~/SCRIPT/jquery-1.4.min.js" />
+        </Scripts>
+    </asp:ScriptManager>
+    <div id="divMain">
+    <div id="divWorkPage">
+        <div id="header" >
+            <div style="float: left; border:0px solid black;">
+                <h1>
+                    <img src='<%=ResolveUrl("~/Images/logo_ncs.jpg")%>' width="215" height="70" alt=""
+                        title="Automated Educational Solution" />
+                </h1>
+            </div>
+            <div style="float: left; border:0px solid black;width:750px;padding-top:30px;text-align:center;">
+               <h3 style="font-size:26px;">Automated Education System</h3>
+            </div>
+        </div>
+        <div id="headerMiddle" style="vertical-align:middle;">
+            <div style="width:150px; float:right;">
+                <table cellpadding="0" cellspacing="0" width="100%" border="0" style="height:30px;font-size:12px;">
+                    <tr>
+                        <%--<td align="center">
+                            <asp:LinkButton ID="linkHome" runat="server" >Home</asp:LinkButton>
+                        </td>--%>
+                        <td align="center">
+                            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HomePage.aspx">SignOut</asp:HyperLink>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="divContainer">
+            <div class="listmenu">
+                <ul>
+                    <li><a href="#">Master Management</a> 
+                      <li><a href='<%=ResolveUrl("~/RegistrationMasterUI.aspx")%>'>Registration Master</a></li>
+                       
+                    </li>
+                    <li><a href="<%=ResolveUrl("~/StudentRegistrationDetailUI.aspx?Module=SR")%>">Student Registration</a></li>
+                    <li><a href="<%=ResolveUrl("~/StudentRegistrationDetailUI.aspx?Module=SA")%>">Student Admission</a></li>
+                    <li><a href="<%=ResolveUrl("~/EmployeeDetailUI.aspx")%>">Employee Management</a></li>
+                    <li><a href="#">Leave And Attendence</a></li>
+                    <li><a href="#">Inventory Management</a></li>
+                    <li><a href="#">Payroll Management</a></li>
+                </ul>
+            </div>
+            <div id="divContaintRight" style="border-left: 1px solid #CCCCCC">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+        <div id="footer">
+            <p style="float: left;">
+            </p>
+            <p style="float: right;">
+                © 2012 AES.</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

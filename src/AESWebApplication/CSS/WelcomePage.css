@@ -1,0 +1,19 @@
+﻿div .content
+{
+	text-align: justify;
+	width: 73%;
+	margin-left: 15px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	color: #596062; /*line-height: 180%;*/
+}
+b.MenuInformation
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #596062;
+	text-decoration: underline;
+}

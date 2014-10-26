@@ -1,0 +1,170 @@
+﻿body
+{
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #596062;
+}
+#divMain
+{
+	margin: 0 auto;
+	width: 980px;
+}
+#divWorkPage
+{
+	float: left;
+	border: 1px solid #CCCCCC;
+	margin: 20px 0px 0px 0px;
+	width: 980px;
+	-moz-box-shadow: 0px 0px 30px #A4A4A4;
+	-webkit-box-shadow: 0px 0px 30px #A4A4A4;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	font-size: 11px;
+	background-color: #ffffff;
+}
+#header
+{
+	float: left;
+	width: 980px;
+	-moz-border-radius: 2px;
+	color: #878787;
+}
+#headerMiddle
+{
+	height: 30px;
+	color: #ffffff;
+	background-color: #6BA8CE;
+	border-bottom: 2px solid #ffffff;
+	float: left;
+	width: 960px;
+	color: #878787;
+}
+#divContainer
+{
+	float: left;
+	width: 980px;
+	height: 100%;
+}
+#footer
+{
+	float: left;
+	border: 1px solid #CCCCCC;
+	margin: 0px 0px 0px 0px;
+	width: 980px;
+	color: #878787;
+	font-size: 11px;
+	background-color: #ffffff;
+}
+#divContentRight
+{
+	float: left;
+	width: 75.5%;
+	margin: 15px 0px 0px 20px;
+	overflow: hidden;
+	position: relative;
+}
+
+#divContaintRightwithMenu
+{
+	float: left;
+	width: 700px;
+	margin: 15px 40px 0px 20px;
+}
+
+.dvColumnLeft
+{
+	float: left;
+	margin: 0px 0px 8px 0px;
+}
+.dvColumnRight
+{
+	float: right;
+	margin: 0px 0px 8px 10px;
+}
+/* add by bk */
+.divCenter
+{
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+	white-space: nowrap;
+}
+/*.pageline{width:750px;}*/
+span
+{
+	float: left;
+	width: 100px;
+}
+select
+{
+	float: left;
+	font-size: 12px;
+	margin: 0px 0px 0px 0px; /*padding:2px 2px;*/
+	border: solid 1px #aacfe4;
+	width: 153px;
+}
+input[type="text"]
+{
+	float: left;
+	font-size: 12px; /*padding:4px 2px;*/
+	border: solid 1px #aacfe4;
+	width: 150px;
+}
+input[type="submit"]
+{
+	width: 120px;
+	height: 22px;
+	background: #666666 url(img/button.png) no-repeat;
+	text-align: center;
+	line-height: 22px;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0px 0px 0px 5px;
+}
+
+h3
+{
+	margin: 0px 0px 5px 0px;
+}
+
+.lblMsg
+{
+	width: auto;
+	color: #B40404;
+}
+
+input[type="checkbox"]
+{
+	width: 20px;
+	cursor: pointer;
+	color: #ffffff;
+}
+.imgValidate
+{
+	height: 20px;
+	width: 20px; /*font-size: x-large;*/
+}
+.rfvValidate
+{
+	height: 20px;
+	width: 20px;
+}
+.fieldSet
+{
+	width: 111%;
+}
+.divmargin
+{
+	margin-top: 50px;
+}
+
+.dvGrid
+{
+	width: 100%;
+}
+/* add new id for wizard*/
+#maindiv
+{
+	margin-top: 140px;
+}

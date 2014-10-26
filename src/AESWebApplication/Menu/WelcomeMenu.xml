@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MenuItems>
+  <Menu ImageUrl="~/Images/check.gif" Name="Admin Management" Url="~/SetUpMaster.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Student Management" Url="StateMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Employee Management" Url="CityMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Inventory Management" Url="CityMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Library Management" Url="CityMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Time Table" Url="CityMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Progress Report" Url="CityMasterUI.aspx"/>
+  <Menu ImageUrl="~/Images/check.gif" Name="Transportation" Url="CityMasterUI.aspx"/>
+</MenuItems>

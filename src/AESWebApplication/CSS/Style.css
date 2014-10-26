@@ -1,0 +1,59 @@
+/* CSS Document */
+
+body{font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333; margin:0;}
+body{background-image:urlbackground-image: url(Images/login_bg.jpg);}
+ul,li{list-style:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.topMnu{float:left; font-weight:bold; font-size:14px; margin:2px; padding:2px;}
+.topMnu li{float:left; border-right:0px solid #666666; padding:5px 8px;	width: 100px;}
+.inputTxt{font-size:11px; font-weight:bold; color:#3C5C59;}
+.inputTxt_2{font-size:12px; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bold; color:#3C5C59;}
+.inputBox{font-size:11px; padding:3px;}
+.button a{border:1px solid #999999; background-color:#c6c6c6; padding:3px 5px; margin:3px; color:#000; float:left;}
+.lftMnu{float:left; padding:5px; margin-left:5px; cursor:pointer;margin-bottom:0px;margin-top:0px;}
+.lftMnu a{text-decoration:none; color:#333333;}
+.lftMnu li{text-decoration:none; color:#333333; float:left; width:99%;  background-image:url(../images/red_arrow.GIF); background-position:0% 41%; background-repeat:no-repeat; padding:2px 15px;margin-left:10px;}
+.category_title{float:left; padding:7px 10px; font-size:12px; font-weight:bold;}
+.category_title_2{float:left; padding:5px; font-size:11px; background-color:#CBE6F7; font-weight:bold;}
+.contentDefine{float:left; text-align:justify; font-size:12px; margin:2px; padding:3px;}
+.contentDefine img{float:left;margin:5px 5px 2px 1px;}
+.links{float:left; color:#003399; font-family:Verdana, Arial, Helvetica, sans-serif; margin:0; padding:0; font-size:10px; font-weight:bold;}
+.links li{float:left; padding:2px 4px;}
+.contentDefine_2{float:left; text-align:justify; font-size:12px; margin:2px; color:#000000; padding:5px; background-color:#E6F5FC;}
+.contentDefine_2 img{float:left; float:left;margin:5px 5px 2px 1px;}
+.links_2{float:left; color:#808080; font-family:Verdana, Arial, Helvetica, sans-serif; margin:0; padding:0; font-size:10px; font-weight:bold;}
+.links_2 li{float:left; padding:2px 4px;}
+
+
+.formContaner{float:left; width:580px;}
+.formContaner2{float:left; width:650px;}
+.form_outer{float:left; margin:5px; width:600px;}
+.form_outer_1{float:left; margin-left:20px; width:150px; font-size:11px;}
+.form_outer_2{float:left; margin-left:20px; width:400px;}
+.form_outer_3{float:left; margin-left:20px; width:280px;}
+p{margin:0; padding:0; list-style:none; float:left;}
+.lft li{float:left; margin: 4px;color:#333333;}
+.rgt li{float:right; margin: 4px;}
+.lftFloat{float:left}
+.rgtFloat{float:right}
+
+h2{font-size:16px; padding:2px; margin:2px; border-bottom:1px solid #999999;}
+.buttonBoxInp{float: right; margin-right: 10px;}
+.buttonInp{color:#fff; padding:2px 4px; font-size:11px; font-weight:bold; background-color:#6E9D95; border:1px solid #436F67;}
+
+
+
+.div33{float:left; width:33%; margin-left:5px;}
+.div33 h3{border-bottom:1px solid #999999;}
+.div33 ul{font-size:14px; font-family:Georgia, 'Times New Roman', Times, serif;}
+.div33 ul li{margin:5px;}
+.div33 img{float:left; margin:2px;}
+
+.div46{float:left; width:46%; margin-left:5px;}
+.div46 h3{border-bottom:1px solid #999999;}
+.div46 ul{font-size:14px; font-family:Georgia, 'Times New Roman', Times, serif;}
+.div46 ul li{margin:5px;}
+.div46 img{float:left; margin:2px;}
+
+

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FFA44C9A-38DD-49E3-91FF-3421661C3E52}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AES.ObjectFramework</RootNamespace>
+    <AssemblyName>AES.ObjectFramework</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AcademicSessionMaster.cs" />
+    <Compile Include="ActivityDetail.cs" />
+    <Compile Include="ActivityMaster.cs" />
+    <Compile Include="ActivityOwnership.cs" />
+    <Compile Include="ActivityScheduleDetail.cs" />
+    <Compile Include="AddressDetail.cs" />
+    <Compile Include="AttendanceMaster.cs" />
+    <Compile Include="BankMaster.cs" />
+    <Compile Include="BaseClassObject.cs" />
+    <Compile Include="BranchMaster.cs" />
+    <Compile Include="CandidateDetail.cs" />
+    <Compile Include="CashRegisterMaster.cs" />
+    <Compile Include="CityMaster.cs" />
+    <Compile Include="ClassMaster.cs" />
+    <Compile Include="ClassSubjectMapping.cs" />
+    <Compile Include="CompanyMaster.cs" />
+    <Compile Include="CountryMaster.cs" />
+    <Compile Include="CourseMaster.cs" />
+    <Compile Include="DepartmentMaster.cs" />
+    <Compile Include="DesignationMaster.cs" />
+    <Compile Include="DivisionMaster.cs" />
+    <Compile Include="DocumentDetail.cs" />
+    <Compile Include="EmergencyDetail.cs" />
+    <Compile Include="EmployeeAdministrativeDetail.cs" />
+    <Compile Include="EmployeeDetail.cs" />
+    <Compile Include="EmployeeEducationalDetail.cs" />
+    <Compile Include="EmployeeFamilyDetail.cs" />
+    <Compile Include="EmployeeFinancialDetail.cs" />
+    <Compile Include="EmployeeJoiningDetail.cs" />
+    <Compile Include="EmployeeMedicalDetail.cs" />
+    <Compile Include="EmployeePreviousOrganisationDetail.cs" />
+    <Compile Include="FeeCollectionDetail.cs" />
+    <Compile Include="FeeDiscountSetup.cs" />
+    <Compile Include="FeeMaster.cs" />
+    <Compile Include="FeeRegister.cs" />
+    <Compile Include="FeeSchedule.cs" />
+    <Compile Include="FeeScheduleDetail.cs" />
+    <Compile Include="FeeSetup.cs" />
+    <Compile Include="FeeStructure.cs" />
+    <Compile Include="FeeStructureDetail.cs" />
+    <Compile Include="GradeMaster.cs" />
+    <Compile Include="GroupMaster.cs" />
+    <Compile Include="GuardianDetail.cs" />
+    <Compile Include="ImmigrationDetail.cs" />
+    <Compile Include="ItemMaster.cs" />
+    <Compile Include="ItemType.cs" />
+    <Compile Include="JoiningMaster.cs" />
+    <Compile Include="KnownLanguage.cs" />
+    <Compile Include="LateFeeSetup.cs" />
+    <Compile Include="LateFeeSetupDetail.cs" />
+    <Compile Include="LedgerMaster.cs" />
+    <Compile Include="LicenceDetail.cs" />
+    <Compile Include="MedicalMaster.cs" />
+    <Compile Include="MetadataMaster.cs" />
+    <Compile Include="MetadataType.cs" />
+    <Compile Include="PreviousSchoolEducationDetail.cs" />
+    <Compile Include="PreviousSchoolEducationMarksDetail.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualificationMaster.cs" />
+    <Compile Include="RackGroupMaster.cs" />
+    <Compile Include="RackMaster.cs" />
+    <Compile Include="RegistrationEligibility.cs" />
+    <Compile Include="RegistrationMaster.cs" />
+    <Compile Include="ReportingDetail.cs" />
+    <Compile Include="ReservationDetail.cs" />
+    <Compile Include="ResourceManagement.cs" />
+    <Compile Include="RoleManagement.cs" />
+    <Compile Include="RoleResourceMapping.cs" />
+    <Compile Include="RoomMaster.cs" />
+    <Compile Include="SchoolMaster.cs" />
+    <Compile Include="SectionMaster.cs" />
+    <Compile Include="SiblingDetail.cs" />
+    <Compile Include="SkillDetail.cs" />
+    <Compile Include="SkillMaster.cs" />
+    <Compile Include="StateMaster.cs" />
+    <Compile Include="StreamMaster.cs" />
+    <Compile Include="StudentAttendance.cs" />
+    <Compile Include="StudentDetail.cs" />
+    <Compile Include="StudentRegistrationDetail.cs" />
+    <Compile Include="SubjectMaster.cs" />
+    <Compile Include="UserManagement.cs" />
+    <Compile Include="UserRoleMapping.cs" />
+    <Compile Include="VoucherType.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AES.SolutionFramework\AES.SolutionFramework.csproj">
+      <Project>{6CAE1802-F188-4C48-8258-278BAAADF612}</Project>
+      <Name>AES.SolutionFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

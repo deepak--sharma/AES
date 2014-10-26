@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Welcome to AES</title>
+    <link href="../CSS/main.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/DefaultMenu.css" rel="stylesheet" type="text/css" />
+    <link href="../css/welcomepage.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div id="divMain">
+        <div id="divWorkPage">
+            <div id="header">
+                <div style="float: left; border: 0px solid black;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Image ID="SchoolLogo" runat="server" ImageUrl="~/Images/School_Logo.jpeg" Height="59px"
+                        Width="79px" />
+                </div>
+                <div style="float: left; border: 0px solid black; width: 750px; padding-top: 20px;
+                    text-align: center;">
+                    <h3 style="font-size: 26px;">
+                        Automated Education System</h3>
+                </div>
+            </div>
+            <div id="headerMiddle" style="vertical-align: middle;">
+                <div style="width: 150px; float: right;">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" style="height: 30px;
+                        font-size: 12px;">
+                        <tr>
+                            <td align="center">
+                                <asp:HyperLink ID="linkHome" runat="server" NavigateUrl="~/WelcomePage.aspx">Home</asp:HyperLink>
+                            </td>
+                            <td align="center">
+                                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/HomePage.aspx">SignOut</asp:HyperLink>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="divContainer">
+                <div class="listmenu">
+                    <asp:Image runat ="server" ID="welcomeImage" ImageUrl="~/Images/img-12.jpg"/>
+                    <asp:Menu ID="welcomeMenu" runat="server" Width="200px" 
+                        StaticBottomSeparatorImageUrl="~/Images/dot_line.jpg">
+                        <LevelMenuItemStyles>
+                            <asp:MenuItemStyle Font-Bold="True" Font-Size="10pt" Font-Underline="False" ForeColor="White"
+                                HorizontalPadding="2px" ItemSpacing="3px" VerticalPadding="2px" />
+                        </LevelMenuItemStyles>
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" CssClass="navmenu"/>
+                        <DynamicHoverStyle BackColor="#7C6F57" ForeColor="Maroon" />
+                        <DynamicMenuStyle BackColor="#F7F6F3" />
+                        <DynamicMenuStyle VerticalPadding="30px" />
+                        <DynamicMenuItemStyle BackColor="Black" />
+                        <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+                    </asp:Menu>
+                </div>
+                <div id="divContentRight">
+                    <asp:ContentPlaceHolder ID="bodyPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <p style="float: left;">
+            </p>
+            <p style="float: right;">
+                © 2012 AES.</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

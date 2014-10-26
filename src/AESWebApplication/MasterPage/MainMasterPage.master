@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MainMasterPage.master.cs"
+    Inherits="MasterPage_MainMasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="Head" runat="server">
+        <title>Welcome to AES</title>
+    </asp:ContentPlaceHolder>
+    <link href="../CSS/GridView.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/Main.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/DefaultMenu.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <ajaxToolkit:ToolkitScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="True"
+        CombineScripts="True">
+        <Scripts>
+            <asp:ScriptReference Path="~/SCRIPT/jquery-1.4.min.js" />
+            <asp:ScriptReference Path="../SCRIPT/Common.js" />
+        </Scripts>
+    </ajaxToolkit:ToolkitScriptManager>
+    <div id="divMain">
+        <div id="divWorkPage">
+            <div id="header">
+                <div style="float: left; border: 0px solid black;">
+                    <h1>
+                        <img src='<%=ResolveUrl("~/Images/logo_ncs.jpg")%>' width="215" height="70" alt=""
+                            title="Automated Educational Solution" />
+                    </h1>
+                </div>
+                <div style="float: left; border: 0px solid black; width: 650px; padding-top: 30px;
+                    text-align: center;">
+                    <h3 style="font-size: 26px;">
+                        Automated Education System</h3>
+                </div>
+            </div>
+            <div id="headerMiddle" style="vertical-align: middle;">
+                <div style="width: 150px; float: right;">
+                    <table cellpadding="0" cellspacing="0" width="100%" border="0" style="height: 30px;
+                        font-size: 12px;">
+                        <tr>
+                            <td align="center">
+                                <asp:HyperLink ID="linkHome" runat="server" NavigateUrl="~/WelcomePage.aspx">Home</asp:HyperLink>
+                            </td>
+                            <td align="center">
+                                <asp:HyperLink ID="linkSingOut" runat="server" NavigateUrl="~/HomePage.aspx">SignOut</asp:HyperLink>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <%--<table cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>--%>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+                <%-- </td>
+                        <td>
+                        <div>
+                        fgfdgfdgfdhgfdh
+                        </div>
+                        </td>
+                    </tr>
+                </table>--%>
+            </div>
+        </div>
+        <div id="footer">
+            <p style="float: left;">
+            </p>
+            <p style="float: right;">
+                © 2012 AES.</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
