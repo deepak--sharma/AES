@@ -1,11 +1,3 @@
-src/_ReSharper*/
-src/*.sln
-src/*.suo
-src/*.bak
-*.bak
-*.dll
-*.pdb
-src/backup*/
 #ignore thumbnails created by windows
 Thumbs.db
 #Ignore files build by Visual Studio
@@ -32,3 +24,10 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+src/_ReSharper*/
+src/*.suo
+src/*.bak
+*.bak
+*.dll
+*.pdb
+src/backup*/
